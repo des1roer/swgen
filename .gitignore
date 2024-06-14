@@ -1,0 +1,8 @@
+# Other custom
+.DS_Store
+.AppleDouble
+*/.AppleDouble
+.idea
+/*.iml
+/web/*.html
+/vendor/*

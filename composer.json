@@ -1,0 +1,14 @@
+{
+    "name": "des1roer/swgen",
+    "description": "Swagger (OpenApi) generator for PHP projects",
+    "type": "library,",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "des1roer",
+            "email": "des1roer@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
