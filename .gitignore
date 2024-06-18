@@ -1,2 +1,4 @@
 # Other custom
 .idea
+/.phpunit.result.cache
+/vendor/

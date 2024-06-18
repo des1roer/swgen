@@ -1,14 +1,34 @@
 {
-    "name": "des1roer/swgen",
-    "description": "Swagger (OpenApi) generator for PHP projects",
-    "type": "library,",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "des1roer",
-            "email": "des1roer@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {}
+  "name": "des1roer/swgen",
+  "description": "Swagger (OpenApi) generator for PHP projects",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "des1roer\\swgen\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "des1roer\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "des1roer",
+      "email": "des1roer@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "~7.4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.6.x-dev"
+  },
+  "scripts": {
+    "test": [
+      "vendor/bin/phpunit"
+    ]
+  }
 }
